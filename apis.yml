@@ -1,8 +1,25 @@
 aid: praan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/praan.png
 name: Praan
-description: 'Praan is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Praan (Praan Climate Technologies) is a deep-tech climate startup working to
+  democratize access to clean, healthy air and to rebuild the atmosphere by capturing air
+  pollution and greenhouse gases with novel filterless technology. Its products include HIVE,
+  an air-purification device for homes and commercial spaces paired with a companion mobile
+  application, and MK II, an air-purification system for industrial environments. Praan is
+  backed by Prosus Ventures. This profile was surfaced as a portfolio-company lead and
+  enriched through the API Evangelist pipeline; as of this pass Praan publishes a consumer
+  hardware and mobile-app surface but no public developer API, SDK, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/praan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Frontier Tech
+- Climate
+- Air Quality
+- Clean Tech
+- Hardware
+- Carbon Capture
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://praan.io
+- type: About
+  url: https://praan.io/about
+- type: PrivacyPolicy
+  url: https://praan.io/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/praan
+- type: DomainSecurity
+  url: security/praan-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
