@@ -1,0 +1,14 @@
+{
+  "repo": "praan",
+  "feeds": [
+    {
+      "source": "https://praan.io/news/",
+      "feed_url": "https://praan.io/news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
